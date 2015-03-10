@@ -9,7 +9,7 @@
 
 
 int main(){
-    IplImage* im = cvLoadImage("/home/anonymz/Téléchargements/Circleoflife5.png",CV_LOAD_IMAGE_COLOR);
+    IplImage* im = cvLoadImage("../images/Circleoflife5.png",CV_LOAD_IMAGE_COLOR);
     IplImage* im_result = cvCreateImage( cvGetSize(im), IPL_DEPTH_8U, 3 );
     int dim = im->height*im->width;
 

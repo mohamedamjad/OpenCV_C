@@ -16,5 +16,6 @@ gcc imageReader.c -o imageReader `pkg-config --libs --cflags opencv` -ldl -lm
 
 ### Résultat:
 Deux fenêtres doivent s'affircher: une avec l'image original et l'autre avec l'image floutée.
+![snapshot resultat](images/resultat.png)
 
 
